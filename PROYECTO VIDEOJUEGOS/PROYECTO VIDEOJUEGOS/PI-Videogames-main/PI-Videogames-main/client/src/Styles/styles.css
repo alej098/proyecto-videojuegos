@@ -1,0 +1,151 @@
+.compo-card {
+  display: grid;
+  grid-template-columns: 1fr;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid #ccc;
+    border-radius: 5px;
+    width: 15rem;
+    margin: 8px;
+    padding: 5px;
+    background-image: url("https://fantasiagamer.files.wordpress.com/2017/09/img_4070.jpg");
+    color: white;
+  }
+  .link-blanco {
+    color: white;
+  }
+  .compo-card img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  .cards-container{
+    display: flex;
+    width: 85%;
+    justify-content: center;
+    margin-top: 14%;
+    flex-wrap: wrap;
+    
+  }
+  .contenedor-detail {
+    background-color: rgb(29, 0, 29);
+    background-image: linear-gradient(to bottom, rgba(78, 35, 78, 0.8), rgb(61, 54, 54));
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 111vh;
+  }
+  .game-info {
+    font-size: 12px;
+    margin-bottom: 9px;
+    color: white;
+  }
+  
+  .cont-img-detail {
+    display: center;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .image-container {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    margin-left: 40%; 
+  }
+  
+  .game-imagen {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .contenedor-detail-info {
+    padding: 60px;
+    
+  }
+  .volver-btn {
+    border: 1px solid black;
+    margin-top: 5px;
+   
+  }
+  .landing-container {
+    background-image: url("https://w7.pngwing.com/pngs/721/863/png-transparent-video-game-game-boy-retrogaming-game-controller-video-games-game-electronics-retro.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .enter-button-landing {
+    margin: 16px;
+    border: 8px solid black;
+    font-size: 20px; /* Aumenta el tamaño del texto */
+    padding: 12px 24px; /* Aumenta el espacio interno del botón */
+  }
+  .cont-searchBar{
+    position: absolute;
+    top: 100px;
+    right: 80px;
+    z-index: 1; /* Add this line to set the z-index of the search bar container */
+  }
+  .pagination-container{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1px;
+    bottom: 75%; /* Ajusta la posición vertical del contenedor de paginación */
+    left: 50%; /* Centra horizontalmente el contenedor de paginación */
+    transform: translateX(-50%); /* Centra exactamente el contenedor de paginación */
+  }
+  .botones-de-ordenamiento{
+    position: absolute;
+    top: 10%;
+    left: 5%;
+  }
+  .ir-al-formulario{
+    position: absolute;
+   top: 8%;
+   left: 47%;
+   color: white;
+  }
+  .contenedor-home{
+    background-image: url('https://img.freepik.com/vector-gratis/controles-videojuegos-estilo-neon-pared-ladrillo_24908-58916.jpg');
+    display: flex;
+    align-items: center;
+     z-index: -1;
+  }
+  .create-container {
+    background-image: url('https://img.freepik.com/fotos-premium/ilustracion-joystick-gamepad-controlador-juegos-cyberpunk_691560-5812.jpg');
+    background-size: cover;
+    height: 1000px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .create-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: -30%; 
+  }
+  
+  .create-container form input {
+    margin-bottom: 10px;
+  }
+  .error-message {
+    color: white;
+  }
